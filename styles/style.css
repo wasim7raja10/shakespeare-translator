@@ -21,7 +21,7 @@ main {
 footer {
     flex-shrink: 0;
     padding: 0 1rem;
-    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
@@ -66,5 +66,6 @@ button:hover {
 #output, textarea {
     padding: 6px;
     min-height: 150px;
-    border: 1px solid black
+    border: 1px solid black;
+    font: inherit;
 }
