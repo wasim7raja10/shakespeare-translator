@@ -20,8 +20,13 @@ main {
 
 footer {
     flex-shrink: 0;
-    padding: 0 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+
+footer h3, footer p {
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
