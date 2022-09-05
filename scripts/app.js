@@ -16,6 +16,8 @@ const fetchTranslatedText = () => {
 
 const submitHandler = (e) => {
   e.preventDefault();
+  if(input.value.trim() === '') input.classList.add('invalid')
+  else input.classList.remove('invalid')
   fetchTranslatedText();
 };
 
